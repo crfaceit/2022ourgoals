@@ -1,17 +1,10 @@
 // import { dotenv } from 'dotenv';
 let chaerin_secret = document.querySelector('.chaerin_secret');
 
-let chaerin_password = '0429'
+let chaerin_password = '990429'
 let user_password = ''
 let temp = 0;
 
-function isItOkayTo2021(){
-  if(forInputPassword()){
-    chaerin_secret.setAttribute('href', './2.html')
-  }else{
-    console.log('fasle')
-  }
-}
 // href="./2021 회고 : 2022 목표 .html"
 
 function forInputPassword(){
