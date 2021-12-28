@@ -11,7 +11,7 @@ function forInputPassword(){
   user_password = document.querySelector('.chaerinPasswordForInput').value;
   if(chaerin_password === user_password){
     console.log('패스워드가 맞습니다.');
-    chaerin_secret.setAttribute('href', './2.html')
+    chaerin_secret.setAttribute('href', './1.html')
     temp = 1;
     return true;
   }
